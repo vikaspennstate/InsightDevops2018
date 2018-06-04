@@ -24,7 +24,7 @@
                 viewAll template (new template created) 
                 
 
--template folder
+- template folder
       
       
                 Added viewAll.html template
