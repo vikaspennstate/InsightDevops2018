@@ -1,0 +1,27 @@
+version: '2'
+services:
+  db:
+    image: "postgres:9.6.5"
+    volumes:
+      - "./dbdata:/var/lib/postgresql/data"
+    env_file:
+      - env_file
+  flaskapp:
+    ports:
+      - "5000:5000"
+    build: .
+    env_file:
+      - env_file
+    volumes:
+      - .:/opt/services/flaskapp/src
+    depends_on:
+      - db
+  nginx:
+    image: "nginx:1.13.5"
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./conf.d:/etc/nginx/conf.d
+    depends_on: 
+      - flaskapp
+      - db
