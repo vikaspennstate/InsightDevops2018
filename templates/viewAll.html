@@ -1,0 +1,21 @@
+
+<table>
+<thead>
+<tr>
+  <th>Name</th>
+  <th>Quantity</th>
+  <th>Description</th>
+</tr>
+</thead>
+<tbody>
+{% for d in data %}
+  <tr>
+  <td>{{ d.name }}</td>
+  <td>{{ d.quantity }}</td>
+  <td>{{ d.description }}</td>
+  </tr>
+{% endfor %}
+</table>
+<p class="navbar-btn">
+<a href="/">Back!</a>
+</p>
