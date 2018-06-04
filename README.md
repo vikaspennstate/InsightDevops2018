@@ -6,10 +6,10 @@
 - docker-compose.yml
 
 
-                _Removed the Networks as i felt we didn't need multi hosts in a simple problem like this._
+                Removed the Networks as i felt we didn't need multi hosts in a simple problem like this.
                 
-                _Ensured depends_on is correct for both flaskapp and nginx._
+                Ensured depends_on is correct for both flaskapp and nginx.
                 
-                _provided ports for flaskapp too._
+                Provided ports for flaskapp too.
                 
-                _Ensured volumes are mapped properly._
+                Ensured volumes are mapped properly.
