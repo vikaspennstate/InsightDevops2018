@@ -20,7 +20,8 @@
                 
 - app.py
             
-                In success method ensured data is returned and rendered viewAll template(new template created) 
+                In success method ensured data is returned and rendered 
+                viewAll template (new template created) 
                 
 
 -template folder
