@@ -28,3 +28,17 @@
       
       
                 Added viewAll.html template
+                
+     
+- Following urls were handy while solving the problem:
+
+                https://github.com/10up/wp-local-docker/issues/58
+                https://stackoverflow.com/questions/48091744/error-volumes-dbdata-must-be-a-mapping-or-null
+                http://flask.pocoo.org/docs/1.0/patterns/sqlalchemy/
+                https://hackernoon.com/top-10-docker-commands-you-cant-live-without-54fb6377f481
+                https://docs.docker.com/compose/networking/#links
+                http://containertutorials.com/docker-compose/flask-compose.html
+                
+                
+                
+                
